@@ -34,6 +34,7 @@ public class Hash1 {
 		eid.replace("id", 568);
 	//System.out.println( + "Hello");
 		Iterator iterator = eid.entrySet().iterator();
+		
         while (iterator.hasNext()) {
              Map.Entry me2 = (Map.Entry) iterator.next();
           System.out.println("Key: "+me2.getKey() + " & Value: " + me2.getValue());
@@ -49,7 +50,7 @@ public class Hash1 {
           System.out.println("Key: "+me2.getKey() + " & Value: " + me2.getValue());
         } 
 	      
-	      
+	      System.out.println("all");
 
 	}
 
